@@ -1,0 +1,49 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "LuisBot_CN",
+  "desc": "Hackathon",
+  "culture": "zh-cn",
+  "intents": [
+    {
+      "name": "None"
+    },
+    {
+      "name": "帮助"
+    },
+    {
+      "name": "查找酒店"
+    },
+    {
+      "name": "酒店评价"
+    }
+  ],
+  "entities": [
+    {
+      "name": "机场"
+    },
+    {
+      "name": "地点"
+    }
+  ],
+  "composites": [],
+  "bing_entities": [
+    "geography"
+  ],
+  "actions": [],
+  "model_features": [
+    {
+      "name": "Near",
+      "mode": true,
+      "words": "附近,旁边",
+      "activated": true
+    },
+    {
+      "name": "Show",
+      "mode": true,
+      "words": "查找, 显示, 寻找",
+      "activated": true
+    }
+  ],
+  "regex_features": [],
+  "utterances": []
+}
